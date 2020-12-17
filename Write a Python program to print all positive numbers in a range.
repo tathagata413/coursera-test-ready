@@ -1,0 +1,14 @@
+user1=int(input('Enter the number limit:  '))
+
+numrange=[] 
+def num(n):
+    user=int(input())
+    if(user>0):
+        numrange.append(user)
+
+print('Enter the numbers:  ')   
+for i in range(user1):
+    num(i)
+
+print("Range of all possitive numbers is:  ",numrange)
+    
